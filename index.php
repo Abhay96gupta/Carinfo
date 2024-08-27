@@ -41,7 +41,7 @@
         <div class="container hero-section">
             <div class="nav navbar top fixed">
                 <a href="#" rel="noopener noreferrer">
-                    <img src="./logo (3).jpg" alt="">
+                    <img src="./logo.png" alt="">
                 </a>
             </div>
             <div class="row">
