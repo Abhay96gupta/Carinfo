@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bgimg {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    background-image: url("./carbg3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+  }
+  
+  .hero-section {
+    position: relative;
+  }
+  
+  .hero-section img {
+    width: 200px;
+    border-radius: 5px;
+    clear: both;
+    max-width: 100%; /* Add max-width to ensure image doesn't overflow */
+  }
+  
+  .title {
+    color: white;
+    margin-top: 100%;
+    font-weight: bolder;
+    overflow: hidden;
+  }
+  
+  .title h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+  }
+  
+  .title h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: red;
+  }
+  
+  .btn-form button {
+    margin-top: 110%;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+  }
+  
+  /* Media Queries */
+  
+  /* Large screens (Desktops) */
+  @media only screen and (min-width: 1200px) {
+    .hero-section img {
+      width: 300px; /* Increase image size for larger screens */
+    }
+    .title{
+        margin-top: 80%;
+    }
+    .title h1 {
+      font-size: 4.5rem; /* Increase font size for larger screens */
+    }
+    .title h2 {
+      font-size: 3.5rem; /* Increase font size for larger screens */
+    }
+    .btn-form button {
+        margin-top: 95%;
+      font-size: 1.5rem; /* Increase font size for larger screens */
+    }
+  }
+  
+  /* Medium screens (Tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .hero-section img {
+      width: 250px; /* Adjust image size for tablets */
+    }
+    .title{
+        margin-top: 90%;
+    }
+    .title h1 {
+      font-size: 4rem; /* Adjust font size for tablets */
+    }
+    .title h2 {
+      font-size: 3.5rem; /* Adjust font size for tablets */
+    }
+    .btn-form button {
+      margin-top: 120%;
+      font-size: 1.3rem; /* Adjust font size for tablets */
+    }
+  }
+  
+  /* Small screens (Mobiles) */
+  @media only screen and (max-width: 767px) {
+    .hero-section img {
+      width: 150px; /* Reduce image size for mobiles */
+    }
+    .title{
+        margin-top: 70%;
+    }
+    .title h1 {
+      font-size: 4rem; /* Reduce font size for mobiles */
+    }
+    .title h2 {
+      font-size: 3rem; /* Reduce font size for mobiles */
+    }
+    .btn-form button {
+      margin-top: 100%;
+      font-size: 1rem; /* Reduce font size for mobiles */
+    }
+  }
+  @media only screen and (max-width: 573px) {
+    .hero-section img {
+      width: 150px; /* Reduce image size for mobiles */
+    }
+    .title{
+        margin-top: 70%;
+    }
+    .title h1 {
+      font-size: 4rem; /* Reduce font size for mobiles */
+    }
+    .title h2 {
+      font-size: 3.5rem; /* Reduce font size for mobiles */
+    }
+    .btn-form button {
+      margin-top: 10%;
+      font-size: 1rem; /* Reduce font size for mobiles */
+    }
+  }
