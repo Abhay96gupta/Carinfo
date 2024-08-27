@@ -29,6 +29,7 @@
   }
   
   .hero-section img {
+    margin: 20px;
     width: 200px;
     border-radius: 5px;
     clear: both;
